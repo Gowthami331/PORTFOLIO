@@ -1,0 +1,158 @@
+.hh1{
+			width: 94%;
+			border:2px solid white;
+			height: 150px;
+			box-shadow: 2px 2px 2px 2px yellow;
+			margin-left: 3%;
+			margin-right: 3%;
+			display: flex;
+			flex-direction: row;
+			background-color: white;
+			
+
+		}
+		.t1 img{
+			height: 90px;
+			width: 150px;
+			padding: 25px;
+		}
+		.t1{
+			width: 79%;
+
+			
+		}
+		body{
+			background-color: orange;
+			}
+		img{
+			width: 94%;
+			margin-left: 3%;
+			margin-right: 3%;
+			height: 500px;
+			margin-top: 1%;
+		}
+		.hh2{
+			width: 94%;
+			
+			height: 620px;
+			
+			
+			
+		}
+		
+		.g1 img ,.g2 img,.g3 img{
+			height: 196px;
+			width: 250px;
+			border-radius: 20px;
+			}
+		.g1,.g2,.g3{
+			background-color: white;
+			width: 40%;
+			margin-left:2%;
+			padding: 1%;
+			
+			border-radius: 30px;
+			border:2px solid transparent;
+			box-shadow: 2px 2px 2px 2px gold;
+			text-align: center;
+			margin-bottom: 3%;
+			
+		}		.c1{
+			display: flex;
+			flex-direction: row;
+			margin: 1%;
+			
+			
+		}
+		@media only screen and (min-width: 300px) and (max-width: 767px){
+			body{
+			background-image: url(r7.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		.hh1{
+			
+			flex-direction: column;
+			text-align: center;
+			height: 260px;
+			width: 97%;
+			margin-left: 1%;
+			border:none;
+
+			
+
+			
+		}
+		.hh1 img{
+		margin-left: 65px;
+		}
+		img{
+			width: 98%;
+			height: 260px;
+			padding-top: 2%;
+			
+			margin-left: 1%;
+			margin-right: 1%;
+
+		}
+		.c1{
+			display: flex;
+			flex-direction: column;
+			
+		}
+		.hh2{
+			
+			height: 100%;
+			
+			
+		
+		}
+		.g1,.g2,.g3{
+			width: 92%;
+			display: flex;
+			flex-direction: column;
+
+			
+			
+
+		}
+		.g1 img,.g2 img, .g3 img{
+			
+			border-radius: 20px;
+			
+			margin-top: -5px;
+			margin-left: 25px;
+			
+		}
+		.foot{
+				
+				text-align: center;
+				
+				height: 10%;
+
+			}
+			
+			}
+			@media only screen and (min-width:768px) and (max-width: 1023px)
+		{
+			.c1{
+				width:100%;
+
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			margin-left: 2%;
+			
+				
+			}
+			.hh2{
+				height: 100%;
+			}
+			.g1,.g2,.g3{
+				width: 46%;
+				padding: 1%;
+			}
+
+
+		
